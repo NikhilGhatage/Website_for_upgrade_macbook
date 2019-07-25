@@ -1,0 +1,149 @@
+ <!-- Tab links -->
+<html>
+<head>
+<link rel = "stylesheet" href = "toptab.css">
+<script>
+
+function openTab(evt, buttonName) {
+ 
+  var i, tabcontent, tablinks;
+
+  
+  tabcontent = document.getElementsByClassName("tabcontent");
+  
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+ 
+  document.getElementById(buttonName).style.display = "block";
+  evt.currentTarget.className += " active";
+} 
+</script>
+</head>
+
+<div class="tab">
+<button class="tablinks active" onclick="openTab(event, 'Home')">Home</button>
+<button class="tablinks" onclick="openTab(event, 'Upgrade')">Upgrade</button>
+<button class="tablinks" onclick="openTab(event, 'Guide')">Guide</button>
+<button class="tablinks" onclick="openTab(event, 'Shop Gears')">Shop Gears</button>
+</div>
+
+<!-- Tab content -->
+<!-- Home start -->
+<div id="Home" class="tabcontent">
+<h1 style="color:blue"><center>Welcome !</center></h1>
+<p>We are Happy to Help You.</p>
+<p>Now a days buying a new macbook is very expensive task So, we can upgrade them and create very powerful machine as Apple provide very long term software support to there machines. Fitting a solid state drive in your MacBook Pro is a quick and simple way to boost performance but an upgrade might not always be needed.</p>
+<h3 style="color: crimson">Do I really need to upgrade my Mac hard drive and Memory?</h3>
+<img src="Macbook Pro.jpeg" height="400" width="800">
+<p>A memory upgrade is one of the fastest, easiest, and most affordable ways to immediately improve the performance of your computer. If your PC laptop, desktop, workstation, or Mac system is running slowly, installing more memory takes as little as five minutes and delivers immediate and lasting improvements. Speed up your system, increase responsiveness, multitask with ease, and extend the lifespan of your computer with a reliable desktop memory, laptop memory, or Mac memory upgrade. </p>
+
+</div>
+<!-- Home Ends -->
+
+
+<!-- Upgrade start -->
+<div id="Upgrade" class="tabcontent">
+    <h3 style="color:blue">Decides to Upgrade Your Macbook ?</h3>
+<h3>If Yes then Follow Below Instructions</h3>
+<p><b>1) check your Mac has support for upgrading on <a href="https://support.apple.com/en-in/HT201165" target="_blank"">Apple</a> website.</b></p>
+    
+<p><b>2) Note down the specification supported from their site.</b></p>
+<p><b>3) Go through our guide for choosing right gears for upgradation.</b></p>
+<p><b>4) Remove back cover of your Macbook Pro</b></p>
+<img src="remove back cover2.jpeg" height="400" width="600">
+<img src="Remove back cover.jpeg" height="400" width="600">
+<p><b>5) Pry the bottom off of your MacBook Pro. It should come off fairly easily, without any undue force.</b></p>
+<p><b>6) Remove HDD</b></p>
+<p>Locate the hard drive.  It's held in place by a little piece of plastic. Remove the screws holding the plastic piece in place.</p>
+<img src="Remove HDD.jpg" height="400" width="600">
+<img src="Remove HDD2.jpeg" height="400" width="600">
+<p><b>7) Next, gently lift the hard drive out of the chassis, and remove the ribbon connecting it to the notebook.</b></p>
+<img src="Lift SSD.jpeg" height="400" width="600">
+<p><b>8) On the four sides of the hard drive are four small metal posts (visible in the photo above). Unscrew the posts using the Torx screwdriver. Then, screw the posts into the SSD.</b></p>
+<p><b>9) Connect the mSATA ribbon to the SSD, and place it back in the notebook. Reattach the plastic piece holding the drive in place, and then screw the bottom back on.</b></p>
+<img src="startup disk2.jpeg" height="400" width="600">
+<p><b>10) Turn the notebook back on. Open System Preferences, then Startup Disk. Select the SSD (it should be the only one listed), and restart your notebook. You're all done! </b></p>
+
+</div>
+<!-- Upgrade Ends -->
+
+
+<!-- Guide start -->
+<div id="Guide" class="tabcontent">
+<h3>We are Happy to Help You !</h3>
+<p>Hi Guide.</p>
+<p><b>How to Buy the Right SSD: A Guide for 2019</b></p>
+<p>The easiest way to hobble a fast CPU is to pair it with slow storage. While your processor can handle billions of cycles per second, it spends a lot of time waiting for your drive to feed it data. Hard drives are particularly sluggish because they have moving parts and platters that have to spin up. To get optimal performance you need a good solid state drive (SSD)</p>
+
+<p><b>How much can you spend?</b></p>
+<p>Most consumer drives range from 120GB to 2TB. While 120GB drives are the cheapest, they aren't roomy enough to hold a lot of software and are usually slower than their higher-capacity counterparts. It costs as little as $10 (£7) extra to step up from 120 to 250GB size, and that's money well spent. The delta between 250GB and 500GB drives can be slightly more, but 500GB is the sweet spot between price, performance and capacity for most users--particularly if you don't have the budget for a 1TB model.
+There are also some drives (primarily from Samsung) with capacities above 2TB. But they’re typically expensive in the extreme (well over $500/£500), so they’re really only worthwhile for professional users who need space and speed and aren’t averse to paying for it.</p>
+
+</div>
+<!-- Guide Ends -->
+
+<!-- Shop Gears start -->
+<div id="Shop Gears" class="tabcontent">
+<h3>Let's Grab a Great Deals.</h3>
+<p>Hi Shop Gears.</p>
+<table border="1" align="center" cellspacing="6" cellpading="6">
+
+<tr>
+<th>Product Name</th>
+<th>Produc Image</th>
+<th>Product Link</th>
+</tr>
+
+<tr>
+<td>Crucial 500 GB</td>
+<td><img src="Crucial 500 GB.jpeg" height="200" width="300"></td>
+<td><a href="https://www.crucial.in/ind/en/ct500mx500ssd1" target="_blank"">Shop Now</a></td>
+</tr>
+
+<tr>
+<td>Samsung 860 Evo 250 GB</td>
+
+<td><img src="samsung SSD 860 Evo 250GB.jpeg" height="200" width="300"></td>
+
+<td><a href="https://www.samsung.com/in/ssd/?cid=in_ppc_google_20180101_hhp_dsa_719335193_40302839271" target="_blank"">Shop Now</a><td>
+
+</tr>
+
+<tr>
+<td>Samsung 860 Evo 500 GB</td>
+
+<td><img src="samsung SSD 860 Evo 250GB.jpeg" height="200" width="300"></td>
+
+<td><a href="https://www.samsung.com/in/ssd/?cid=in_ppc_google_20180101_hhp_dsa_719335193_40302839271" target="_blank"">Shop Now</a></td>
+
+</tr>
+
+<tr>
+<td>WD-Green 240 GB</td>
+
+<td><img src="WD-GREEN.jpeg" height="200" width="300"></td>
+
+<td><a href="https://www.wd.com/products/internal-ssd.html" target="_blank"">Shop Now</a></td>
+</tr>
+
+<tr>
+<td>Kingston 240 GB</td>
+<td><img src="Kingston 240 GB.jpeg" height="200" width="300"></td>
+<td><a href="https://www.kingston.com/en/ssd" target="_blank"">Shop Now</a></td>
+</tr>
+
+
+
+</table>
+</div> 
+<!-- Shop Gears ends -->
+
+</html>
