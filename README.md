@@ -1,2 +1,4 @@
-# hello-world
-this is a 1st and trial repository creating for just knowing the working go GitHub and experimenting on GitHub
+In this project rather we can say mini project that is simple website for SSD and RAM Upgrading instructions of Macbook Pro mid 2012 model.
+
+Just copy all files in one folder and execute the Home.html file
+and You all done.
